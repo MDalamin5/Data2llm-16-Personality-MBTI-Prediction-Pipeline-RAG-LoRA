@@ -14,10 +14,12 @@ if __name__ == "__main__":
 
     # Create and run the RAG chain
     rag_chain = create_rag_chain(vector_store, user_query)
+    # Set Guardrails
     config = RailsConfig.from_path("config")
     guard_rail = RunnableRails(config=config, llm=llm)
     guard_with_rag_chain = guard_rail | rag_chain
 
+    # user query output
     result = guard_with_rag_chain.invoke(user_query)
 
     # Print the result
