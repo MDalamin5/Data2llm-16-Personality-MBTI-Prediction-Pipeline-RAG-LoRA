@@ -1,0 +1,299 @@
+{
+    "personal_info": {
+        "name": "Hasibur Rahman",
+        "headline": "Software Engineer || PHP | Javascript | Reactjs | RDBMS | REST API",
+        "location": "Gazipur District, Dhaka, Bangladesh",
+        "current_company": "Walton Hi-Tech Industries PLC."
+    },
+    "about": "# I always try to be better than the one that I was yesterday as a human and as an Engineer.\n# I love to explore new technologies and try to implement what I am thinking.\n# Solving problems always interested me whether it is personal or professional.\n# I believe programming is my flag, and any language is my weapon, and I love to conquer.\nMy first and favorite weapon is C and C++, right now using PHP and JavaScript.",
+    "top_skills": [
+        "C",
+        "C++"
+    ],
+    "featured_section": [
+        {
+            "type": "Link",
+            "link": "https://www.linkedin.com/in/hasibur1777/overlay/1635488094105/single-media-viewer?type=LINK&profileId=ACoAACpX-dUBhJ1ksLo_csIHcFrAQXD1TpGWbKk",
+            "title": "Indeed Resume",
+            "description": "Resume"
+        },
+        {
+            "type": "Link",
+            "link": "https://github.com/HRahman1777",
+            "title": "HRahman1777 - Github",
+            "description": null
+        },
+        {
+            "type": "Link",
+            "link": "https://www.linkedin.com/in/hasibur1777/overlay/1635480014978/single-media-viewer?type=LINK&profileId=ACoAACpX-dUBhJ1ksLo_csIHcFrAQXD1TpGWbKk",
+            "title": "The ICPC International Collegiate Programming Contest",
+            "description": "Asia Dhaka Regional Site Online Preliminary Contest"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Walton Hi-Tech Industries PLC.",
+            "company": "3 yrs 4 mos",
+            "employment_type": null,
+            "duration": "Chandra, Kaliakoir, Gazipur",
+            "location": "Aug 2024 - Present \u00b7 1 yr 3 mos",
+            "description": null
+        }
+    ],
+    "education": [
+        {
+            "school": "Jahangirnagar University \u0964 \u099c\u09be\u09b9\u09be\u0999\u09cd\u0997\u09c0\u09b0\u09a8\u0997\u09b0 \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09af\u09bc",
+            "degree": "Master of Science - MS, Computer Science",
+            "duration": "Sep 2023",
+            "grade": null
+        },
+        {
+            "school": "Daffodil International University-DIU",
+            "degree": "Bachelor of Science - BS, Computer Science",
+            "duration": "Jan 2018 - Dec 2021",
+            "grade": null
+        }
+    ],
+    "projects": [
+        {
+            "title": "Footsteps",
+            "duration": "Apr 2022 - Jun 2022",
+            "description": null
+        },
+        {
+            "title": "Word-Filter",
+            "duration": "Mar 2022 - Mar 2022",
+            "description": null
+        }
+    ],
+    "interests": [
+        {
+            "name": "Clement Mihailescu",
+            "followers": "516,000 followers"
+        },
+        {
+            "name": "LinkedIn",
+            "followers": "32,246,177 followers"
+        },
+        {
+            "name": "Google",
+            "followers": "39,428,235 followers"
+        },
+        {
+            "name": "Developers, Engineers & Techies: Solidity, Rust, C++, C#, Python, Java, Javascript | Blockchain",
+            "followers": "834,243 members"
+        },
+        {
+            "name": "Go Developer Community (GoLang)",
+            "followers": "44,796 members"
+        },
+        {
+            "name": "SELISE Highlights for 2025",
+            "followers": "Published monthly"
+        },
+        {
+            "name": "Code & Beyond: WellDev Pulse",
+            "followers": "Published weekly"
+        },
+        {
+            "name": "freeCodeCamp",
+            "followers": "2,139,146 followers"
+        },
+        {
+            "name": "Daffodil International University-DIU",
+            "followers": "102,966 followers"
+        }
+    ]
+,
+
+"posts": [
+    {
+        "content": "🚀 I’m hiring Deployed Engineers at LangChain.\nI’m looking for people who can code like engineers and communicate like partners. Builders who love solving complex problems and working directly with customers.\nWe're building an elite team of deeply technical, customer obsessed folks. If you’re excited about deploying real LLM and agent systems in production, let’s talk. Reach out over DM or apply here!\nhttps://lnkd.in/gNE2VYut",
+        "image_links": []
+    },
+    {
+        "content": "I haven't written a line of code in over a year. My output has 10x'd.\nThis is what happens when you stop thinking about coding agents tools as copilots and start treating them as Deep Agents.\nWhat nobody tells you is most people are using these tools wrong 😉\n- They're still writing code with AI instead of through AI.\n- They haven't learned Context Engineering or created custom slash\ncommands to automate their processes.\n- They're not leveraging multiple background agents that scale work while\nthey think.\n- They don't understand the taxonomy of autonomy—from L0 (manual) to L4\n(full YOLO mode).\nWe're running a track at Google Cloud Day where you'll see exactly how Agentic Coding works in real development workflows. Real systems. Real teams. Real ROI.\nWe'll see production stacks in action. We'll break down best practices for working with Coding Agents, explore how they're implemented within the Deep Agents framework, and discuss:\nwhat they can do\nwhat they can't\nwhat they shouldn't 🙂\nWith incredible speakers from:\nmonday.com\n,\nQodo\n,\nLangTalks\n,\nWix\n,\nWiz\n,\nTenzai\nwe're going to understand the fundamental shift in how software gets built.\nSee you there :)\n(Link for event + agenda in the comments)",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D4D22AQH0IaqdXVkJTQ/feedshare-shrink_800/B4DZpKLLjhIkAg-/0/1762181038060?e=1764201600&v=beta&t=SLbMyUfgHfmQEdOuXmeRDMRucmbqyHqOWvrNLxXRC1s"
+        ]
+    },
+    {
+        "content": "Your AI agent has dementia.\nLangChain\njust dropped the cure:\nDeepAgents CLI with actual persistent memory.\nThis project solves the most infuriating problem in AI development, agents that forget everything the moment you close your terminal.\nIt gives your AI assistant an actual memory that persists across sessions.\nKey Features:\n✅ True persistent memory\nYour agent writes markdown notes to ~/.deepagents/memories/ and reads them before every response. Like a human taking notes.\n✅ File operations that work:\nRead, write, and edit files in your project with diff previews and human approval. No more \"I can't access your filesystem.\"\n✅ Shell command execution\nRun tests, install packages, deploy code - all with your permission. Because we're not insane.\n✅ Multi-agent personalities\nCreate specialized agents (backend-dev, frontend-wizard, devops-guru) each with their own memory and expertise.\nGetting started is stupidly simple.\nJust install and run: pip install deepagents-cli && deepagents\nHarrison said they built this because copy-pasting context 47 times a day is insanity (we agree).\nCheck out the code, see the full toolset, and contribute on GitHub!\n♻️ Repost if you're done being your AI's memory bank",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQEqXYUNyqPQHA/feedshare-shrink_800/B56ZphdasqH8Ag-/0/1762571693340?e=1764201600&v=beta&t=vamnsTwPbvsyxACT7zilpU9h7vwdmE-5BZZtBy1woXw"
+        ]
+    },
+    {
+        "content": "New Chat LangChain just dropped (Now Faster, Smarter, and Better Looking)!\nWho needs docs when you can just chat?\nWe rebuilt Chat LangChain completely from scratch to make it faster, smarter, and more accurate. Now you can ask questions about LangChain, LangGraph, and LangSmith—and get instant answers from our complete documentation and knowledge base.\nThe goal? Help developers ship faster by making it easier to get the answers they need without digging through docs.\nWhether you're debugging, exploring features, or architecting a complex system, you get the context you need instantly.\nTry it out:\nhttps://chat.langchain.com\nWant to see how we built it? Read the full breakdown:\nhttps://lnkd.in/eg5wmUxe\nhashtag\n#\nLangChain\nhashtag\n#\nAI\nhashtag\n#\nDeveloperTools\nhashtag\n#\nBuildInPublic\nhashtag\n#\nLLM",
+        "image_links": []
+    },
+    {
+        "content": "🚀Mini \"TypeScript AI\" release day!\nWe released a bunch of things in the Lang* ecosystem to make building AI agents in TypeScript easier than ever:\n🤖DeepAgents 1.0:\nhttps://lnkd.in/gCm_NUff\n🕸️Tutorial on building agents with NextJS:\nhttps://lnkd.in/gh9YYkD6\n📃Tutorial on building a deep research agent with DeepAgents TypeScript:\nhttps://lnkd.in/gTix6suB",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQHJn3ZxSy2p7Q/feedshare-shrink_800/B56Zpa6HlAI0Ag-/0/1762461776982?e=1764201600&v=beta&t=qp6YuHM5ZA-VN2T_JpKD6KJ7DGggzvdvEnC4k2QvjL4"
+        ]
+    },
+    {
+        "content": "Today we're releasing 0.2 of deep agents\n📁The main addition here is a \"backend\" abstraction, which allows you to swap out the filesystem that deep agents use. Can be local filesystem, a database, remote vm, anything\nAgent Harnesses like deep agents are becoming more important as models become good enough to build more complex, autonomous agents. We wrote a bit about why and how we're doubling down on deep agents:\nhttps://lnkd.in/g5SU9JnA",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQHcIzlw6bYwVw/feedshare-shrink_800/B56ZoryJvgKAAk-/0/1761671159982?e=1764201600&v=beta&t=G2g2D2EP1RTmsEG9iTejdO99HCVh7TYNpLKODpHaM8k"
+        ]
+    },
+    {
+        "content": "🤖Agent Framework vs Runtime vs Harness\nA term I've heard recently is agent \"harness\". We're building DeepAgents to be that\nI wrote a blog on my interpretation of that term and how it differs from \"framework\" (LangChain) and \"runtime\" (LangGraph)\nhttps://lnkd.in/gZuqJS97",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQFaDTflLJDcfA/feedshare-shrink_800/B56ZocK6L3I8Ag-/0/1761409213844?e=1764201600&v=beta&t=aeOJKhiNKrHcfeJXCS_tufG2jiofdamNiEjlK7UnktA"
+        ]
+    },
+    {
+        "content": "“Probably a lot of what we currently do in engineering is now wrong – and we don’t realize it yet.”\nThat line from\nFergal Reid (PhD)\n(Chief AI Officer,\nIntercom\n, building\nFin.ai\n) set the tone at our Fin ×\nLangChain\nmeetup in Amsterdam.\nTogether with\nMarco Perini\n(Deployed Engineer, LangChain), they unpacked what it really takes to build AI Agents that work in production, and why building trust in these systems requires as much discipline and iteration as innovation.\nFrom early hand-coded loops to fine-tuned custom models and real-world reliability, the conversation showed just how fast the field is evolving — and what it takes to keep up.\nWatch the highlights below, and see why this moment in AI feels like the start of something bigger.\n👇 Subscribe on Luma to join the next Fin meetup.",
+        "image_links": []
+    },
+    {
+        "content": "Today was our penultimate session: Agents! 🤖\nCatch up with the recording here:\nhttps://lnkd.in/gmxPnXqz\nWe covered:\n* What's an agent? 🛠️ Tool calling in a loop 🔁\n* Building a standard agent with agent-framework\n* Supervisor agent architecture with subagent\n* Similar agent setup for langchain and pydantic-ai\n* Agentic workflows with agent-framework and visualization with devui\n* Agentic workflows with Langgraph and visualization in Langsmith\n* Human-in-the-loop with Langchain's Agent Inbox\n* Agent planning and memory\nSlides here:\nhttps://lnkd.in/g5grKt7v\nLet me know if you'd want a deeper dive into any agent topics in future live stream series!",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQHtgvqXqrb4WA/feedshare-shrink_800/B56ZoPfZ8JHAAk-/0/1761196483747?e=1764201600&v=beta&t=4HCQlqdJIWDFbob-xVFlx_CJvXf-8CqIe63bS4F55Ak"
+        ]
+    },
+    {
+        "content": "Created an interactive webpage to showcase the milestones achieved by\nLangChain\nand LangGraph v1.0. Take a look! 😊\nhttps://lnkd.in/eh_r-FEq",
+        "image_links": []
+    },
+    {
+        "content": "Bring me your best demand gen people! I'm hiring. This is going to be an awesome role because we are so early in our marketing programs. We do a lot of community and field, but the follow up is nearly non existent, we have 0 paid programs going, we don't really do \"campaigns\" yet. And, because of the education flywheel the team is running, we're still growing an insane amount. Greenfield for 0-1 repeatable programs + partnering with our applied AI eng team is huge. Come join us!",
+        "image_links": []
+    },
+    {
+        "content": "Most agent frameworks fall short when it comes to customization beyond the core agent loop (a model with a prompt, calling tools).\nLangChain\nV1 (alpha out now!) introduces a new concept of agent middleware that enables hooking into this loop at every step.\n📂 before_agent — Load files, validate input\n✂️ before_model — Summarize convos, trim messages\n♻️ wrap_model_call — Dynamic prompts, model, tools\n🛠️ wrap_tool_call — Tool retries, error handling\n🧑 after_model — Human in the loop\n🛡️ after_agent — Save results, final guardrails\nPlus, new docs:\nhttps://lnkd.in/ejusf3AP\n!",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D4E22AQFGeh2ioO3TMA/feedshare-shrink_1280/B4EZnjvYLsK0As-/0/1760462472487?e=1764201600&v=beta&t=ECiEoqjSCdpnWvlUDYfdyVR-0t-4DWHYW9ugCmyQGco"
+        ]
+    },
+    {
+        "content": "With the new createAgent() abstraction, you can finally see 👀 and shape 🎛️ how your agents think and act.\nLangChain\nnow supports middleware hooks that let you intercept, observe, or modify every step of an agent’s reasoning loop:\n🧠 beforeAgent / afterAgent – pre- and post-invocation logic\n💬 beforeModel / afterModel – wrap or monitor model calls\n🧰 wrapToolCall – control how tools are executed\n⚙️ wrapModelCall – add retries, caching, or fallbacks\nThat means you can now:\n- add human-in-the-loop approvals 🙋\n- summarize long conversations or tool results 🧾\n- redact PII 🔒\n- switch models or prompts dynamically ⚡️\n- or even limit tool calls to prevent runaway costs 💸\nThink of it as plugins for your AI agents — as flexible and composable as in Vite, Express.js or Next.js, but for reasoning loops instead of HTTP requests.\nStay tuned — the LangChain v1 release is just around the corner, and this is only the beginning.\nTest it out 👉 npm install langchain@alpha\nRead more about it in our new docs 👉\nhttps://lnkd.in/gP5Us3zd\nhashtag\n#\nLangChain\nhashtag\n#\nAIagents\nhashtag\n#\nmiddleware\nhashtag\n#\njavascript\nhashtag\n#\nopenai\nhashtag\n#\nanthropic\nhashtag\n#\naiengineering",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQFTbdGtsH9DKQ/feedshare-shrink_800/B56ZnkPfQ.KIAk-/0/1760470890013?e=1764201600&v=beta&t=--IOjF9DCc5jcx8LPFR_hd6vU9tks4moTxsA_FDwGrs"
+        ]
+    },
+    {
+        "content": "Crazy to surpass OpenAI in package downloads",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQGEEROEdL42PQ/feedshare-shrink_800/B56ZnWS7YLHUAg-/0/1760236910925?e=1764201600&v=beta&t=m6RGa_DVRhOWjeLPvfkkFJEPCHvYxAuGByHbPUPvWO0"
+        ]
+    },
+    {
+        "content": "I am not excited about visual workflow builders\n1. Not simple enough for the average user. I believe there should be a simpler way to create, modify, and adapt no-code agents\n2. Not scalable for complex use cases\nWrote a little blog:\nhttps://lnkd.in/gDV8pECM",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQEAUeMlUKAEmg/feedshare-shrink_800/B56Zm_kVWXHQAg-/0/1759855598998?e=1764201600&v=beta&t=fykB599c6EaRJu0GuyvROq-AZ9ZMPvWt8M4U81UkJBE"
+        ]
+    },
+    {
+        "content": "fun to share the stage with\nMu Han\n(\nZoom\n) and\nMichele Catasta\n(\nReplit\n) at the Fellows Forum to talk about building agents!\nshout out to\nAlex Ren\nat\nFellows Fund\nfor hosting",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQGAsY8CurZl_Q/feedshare-shrink_800/B56ZmgyFXyIAAg-/0/1759339110936?e=1764201600&v=beta&t=qH5UlD8-PMqm4viZd9Ycrzx9Glf9yiQQ1aGC7BgD6No"
+        ]
+    },
+    {
+        "content": "OpenFunnel (YC F24)\nis the Search Engine for GTM.\nSearching for \"B2B SaaS, 501-1000 employees, uses Salesforce\" is just commoditized and targeted spam.\nOpenFunnel is a time-aware search engine for insights and activities in your target segment - that reveal pain.\nYou can search for activities like:\n\"Find companies looking to implement usage-based billing\"\n\"Find companies that moved from OpenAI to self-hosted models in the last 3-6 months\"\n\"Find companies who updated their pricing page to introduce an enterprise plan in the last 3 months\"\nOpenFunnel continuously monitors these time-based signals, delivering actionable insights daily, giving you the fastest, unique insights that your competitors miss out on.\nOver 1000+ users are already discovering prospects through pain-first search, including some of the fastest-growing companies like Central, Mintlify, and Everest Systems.\nCongrats on the launch,\nFenil Suchak\nand\nAditya Lahiri\n!\nhttps://lnkd.in/gP3yJ7pR",
+        "image_links": []
+    },
+    {
+        "content": "🧠 Solving the Memory Problem: Introducing LangChain's Summarization Middleware in LangChain v1 alpha!\nEver built an AI agent that \"forgets\" important context when conversations get too long? You're not alone. Token limits are one of the biggest challenges in building production-ready AI applications.\nThe Problem: Long conversations hit token limits, forcing you to either:\n❌ Truncate early messages (losing context)\n❌ Manually manage conversation history\n❌ Accept degraded performance as context grows\nThe Solution: LangChain's new summarizationMiddleware automatically manages conversation memory by intelligently summarizing older messages while preserving recent context.\nWhy This Matters:\n✅ Zero Manual Work - Automatic token monitoring and summarization\n✅ Smart Preservation - Never breaks AI/Tool message pairs\n✅ Context Continuity - Maintains conversation flow seamlessly\nReal Impact: Our example shows a conversation going from ~6,000 tokens down to ~1,500 tokens (75% reduction!) while maintaining all the essential context. The agent can still reference earlier challenges and recommendations perfectly.\nPerfect for:\n🎯 Customer support chatbots with long sessions\n🎯 Code review assistants processing large codebases\n🎯 Research agents analyzing extensive documents\n🎯 Any multi-turn dialogue that needs persistent memory\nThis isn't just about staying under token limits—it's about building agents that can have truly long-form, meaningful conversations without losing their memory.\n📚 Read more in our new docs:\nhttps://lnkd.in/gdUW_aPS\nWhat's your biggest challenge with conversation memory in AI applications?\nhashtag\n#\nAI\nhashtag\n#\nLangChain\nhashtag\n#\nMachineLearning\nhashtag\n#\nChatbots\nhashtag\n#\nAgentDevelopment\nhashtag\n#\nOpenAI\nhashtag\n#\nAnthropic\nhashtag\n#\nagents",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQHCDIHRXkAQYg/feedshare-shrink_2048_1536/B56ZlTZmh9HUA0-/0/1758040846746?e=1764201600&v=beta&t=yogKzz5lw3h77K7Mt0-mXRs_72LFhqY3WWSB7wuvBQE"
+        ]
+    },
+    {
+        "content": "LangChain's Agent Middleware is here! 🚀\nDevelopers need more control over agent behavior for optimal context engineering. LangChain 1.0's new middleware gives you that control while keeping the core agent loop simple (model x tools). Our latest release comes with a few builtin primitives, including:\n💁‍♂️ Human-in-the-loop: get user feedback (approve, modify, deny) before executing expensive or risky tools\n🏖️ Summarization: summarize message history to avoid context overflow for long conversations\n🧱 Anthropic prompt caching: optimize cost for long and repetitive prompts\nBlog:\nhttps://lnkd.in/eGrJWE_z\nDocs:\nhttps://lnkd.in/ejusf3AP",
+        "image_links": []
+    },
+    {
+        "content": "🤝Adding human-in-the-loop to deep agents\nMany tools that you may want to give to agents will take actions in the real world. For these tools, you will often want to add \"human-in-the-loop\" steps - require a human user to approve, edit, or respond to their request to execute that tool.\nIn this video, we will see how to add and use human-in-the-loop functionality to Deep Agents\nVideo:\nhttps://lnkd.in/gfbjdABH\nDeep Agents Github:\nhttps://lnkd.in/gWpaj88j",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQG_8Xf4OGjPHQ/feedshare-shrink_800/B56ZlOlrVbJsAk-/0/1757960124881?e=1764201600&v=beta&t=4_V04OocF4jIi9ud0RZEBLL_VzPV0Ka8v6tGXsWOFxM"
+        ]
+    },
+    {
+        "content": "Langchain v1 now has the concept of \"middleware\" for agents - hooks to run before or after the LLM call.\nOne way to use middleware is to limit the number of tool calls that an agent can make. Agents love to make excessive tool calls, especially when researching, and they don't always need those calls - or, you can't always afford the time or token cost to make them. 💵 ⏳\nI made ToolCallLimitMiddleware for my issue-triager-agent, which detects when the number of tool calls is over the limit, then removes tools from the agent and tells the agent that it's time to finish up. This middleware is particularly useful when I'm using models with lower rate limits, as I can easily lower their tool call limit.",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQFtwC-EV9HY6g/feedshare-shrink_800/B56Zk.xKgYI4Ak-/0/1757694700073?e=1764201600&v=beta&t=umT3ycH8JBbsRQgpAUz44WQ2SmeSrDncwKlULgXVhZY",
+            "https://media.licdn.com/dms/image/v2/D5622AQGQG_eS8QIXhg/feedshare-shrink_800/B56Zk.xKg_G4Ag-/0/1757694700190?e=1764201600&v=beta&t=LoPlnKGHOo-X9AWDZVm9Js0a8MVnkLelF2Xv73M-MhE"
+        ]
+    },
+    {
+        "content": "Super excited to share the report our summer intern,\nAliyan Ishfaq\n, has been working on! 🎉\nHe explored what it takes to turn Claude Code (or any agent) into an expert on domain-specific tasks, like writing LangGraph code.\nCheck out the blog post for the methods that worked best, why they worked, and how you can apply them to make Claude Code an expert in your domain:\nhttps://lnkd.in/gEjecgP2",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQEpcJYbub7p4w/feedshare-shrink_800/B56Zk5tdElHMAg-/0/1757609841352?e=1764201600&v=beta&t=ZMWQY6vcqEC-AUFtlOJt26gqjNN8vhEoNuTI6BCFaxk"
+        ]
+    },
+    {
+        "content": "Really good overview of our new human in the loop middleware! We’ll be adding a lot of different types of middleware over next few weeks",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQHedsl8EidqLA/feedshare-shrink_800/B56Zk5yggwKIAg-/0/1757611166781?e=1764201600&v=beta&t=q74oVC7yUR88of8OPbf0yfXaGAlUPJXUeOMLpsfovR4"
+        ]
+    },
+    {
+        "content": "Demo video of my Issue Triager Agent:\nhttps://lnkd.in/gURN4ASJ\nLangGraph  + AgentInbox (both from\nLangChain\n)\n+ GitHub API + Azure OpenAI gpt-5-mini\nThe agent can mark issues as closed, add/remove labels, and post comments, but it only makes those changes *after* human review!\nI am really loving the Langsmith traces for seeing what my agent is doing, and AgentInbox for editing and approving the proposed actions.\nCheck out the code at:\nhttps://lnkd.in/gSN9swwC\nI'll also be demo'ing this at the LangChain demo night in SF this week, so let me know if you have ideas for ways to improve it before then. Or a snappier name!",
+        "image_links": []
+    },
+    {
+        "content": "🚀 Big news for AI agent builders: Agent Reinforcement Trainer (ART) now integrates seamlessly with 🦜🔗 LangGraph!\nIf you’ve ever built multi-step, ReAct-style agents, you know the pain: endless prompt tweaking, fragile reasoning, and lots of manual trial-and-error. With this new integration, you can now train your LangGraph agents with reinforcement learning — making them smarter, more adaptive, and more efficient over time.\n✨ What this means in practice:\n* Agents learn to reason through multi-step problems without hand-holding\n* They improve tool usage automatically (no more prompt spaghetti)\n* They make smarter decisions in complex workflows\n* Training is scalable and robust, powered by ART’s reinforcement engine\nAnd the best part? It’s a drop-in upgrade:\n* Swap in ART’s init_chat_model and wrap_rollout\n* All interactions, tool calls, and reasoning chains get logged automatically\n* Plug straight into ART’s RULER reward function for training — no custom rewards needed\n💡 Imagine your LangGraph prototypes evolving into production-ready agents that actually get better with use. That’s the power of combining LangGraph’s agent framework with ART’s reinforcement learning.\n👉 Full docs & examples here:\nhttps://lnkd.in/gwWj-xxx\nCan’t wait to see what the community builds with this. If you’re experimenting with multi-step AI agents, give your agents the ability to learn from experience!",
+        "image_links": []
+    },
+    {
+        "content": "This is the EASIEST way to build multi-agent systems these days.\nI'm not kidding.\nI just built a complex AI system with 3 specialized agents in 20 minutes.\nAn open source event hunter - finds your perfect tech events in 60 seconds.\nNo more endless Google searches. No more missing CFP deadlines. No more outdated event sites.\nAll thanks to\nHarrison Chase\n's new DeepAgents library 🤯\nHere's how RIDICULOUSLY EASY this was:\n3 lines of code, system prompts, connection to\nBright Data\n's MCP.\nThat's it.\nfrom deepagents import create_deep_agent\nagent = create_deep_agent(\ntools=mcp_tools,\ninstructions=\"Find tech events\",\nsubagents=[search_agent, details_agent]\n)\nBOOM. Multi-agent system is up and running.\nThe secret sauce? DeepAgents is built on Claude Code's architecture - the same system that makes Anthropic's AI so powerful (see the post photo).\nThe genius \"Todo list tool\" that doesn't actually DO anything - just pure context engineering to keep agents focused until task completion.\nSetting up my 3 agents was STUPID SIMPLE:\nSearch Agent - \"Find events using search engines\"\nAnalysis Agent - \"Extract event details from URLs\"\nOrchestrator - \"Coordinate everything\"\nThat's literally the entire architecture definition.\nThe agent literally talks to itself through todos. Keeps perfect focus. Never gets distracted.\nSeriously - if you've been intimidating by multi-agent systems, those days are OVER.\nThis changes everything about building complex AI workflows.\nThe future isn't one AI doing everything poorly. It's specialized AI teams working together brilliantly.\nAnd now it's EASY to build.\nTry it yourself:\nhttps://lnkd.in/dUD6JNjJ\nSee it in action:\nhttps://lnkd.in/dZaxe6GB\nTechnical walkthrough:\nhttps://lnkd.in/dnUBuf8p\nWhat would you build if multi-agent systems were this simple?\nhashtag\n#\nAI\nhashtag\n#\nDeepAgents\nhashtag\n#\nMultiAgent\nhashtag\n#\nLangChain\nhashtag\n#\nTechEvents\nhashtag\n#\nPython\nhashtag\n#\nOpenSource\nhashtag\n#\nMachineLearning\nhashtag\n#\nHackathons\nhashtag\n#\nWebScraping",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D4D22AQHoWm32nEernQ/feedshare-shrink_800/B4DZjhmUx4GkAg-/0/1756131578010?e=1764201600&v=beta&t=oal3XqL61IHfvCdbYyVaSg6j-bVFM5gKOndbrZdZbkw"
+        ]
+    },
+    {
+        "content": "Continuing my gentle foray into\nLangChain\n's  Deepagents framework, I went through the super basic example that\nHarrison Chase\ntalks about in his intro video (\nhttps://lnkd.in/gzw6VWkh\n) and added a couple of minor changes::\n* A Wikipedia tool\n* Using a faster deterministic model for the critique sub-agent (Claude Haiku 3.5, as opposed to Claude Sonnet 4.0 for the main research agent)\nIn this video, you can see how we can build and launch a simple deepresearch agentic query via the DeepAgents UI, and see the traces in Langgraph.\nNote: Research queries take quite a long time, so the video only shows the beginning of the process. I will make a proper video if I get around to building a more interesting custom deepagents implementation.\nThe code can be found here:\nhttps://lnkd.in/gRXUFRx5\nReferences::\n*\nhttps://lnkd.in/grD4UcPN\n*\nhttps://lnkd.in/gVDFmdFq\nhashtag\n#\nlangchain\nhashtag\n#\ndeepagents\nhashtag\n#\nllms\nhashtag\n#\ngenerativeai\nhashtag\n#\npython",
+        "image_links": []
+    },
+    {
+        "content": "Quick poll: when you think of `langchain` the python/js package, what do you think of?",
+        "image_links": []
+    },
+    {
+        "content": "LangChain Ambassador\nIvan Reznikov\nhas put together a guide to applying LangChain, LangGraph, and Large Language Models (LLMs) across life sciences, chemistry, biology, drug discovery, and healthcare 🧪\nCheck out the notebooks & exercises here:\nhttps://lnkd.in/gV373k2D",
+        "image_links": []
+    },
+    {
+        "content": "Announcing LangChain Labs’ newest product: Open SWE\nOpen SWE is an open-source, cloud-based asynchronous coding agent.\nWe've been using Open SWE internally with great success. It's one of the top contributions in our open source repos, and its own repo!\nTry it out today, just provide an Anthropic API key:\nhttps://swe.langchain.com\nOr, you can fork the repo and deploy it yourself:\nhttps://lnkd.in/grP2g2PM\nOpen SWE performs best on long running, complex tasks thanks to its specialized planning and reviewing agents that run before & after the programmer. It runs in a\nDaytona\nsandbox, allowing it to run unsupervised, without the risk of it taking malicious actions on your computer.\nWe've also released a YouTube video going over the basics:\nhttps://lnkd.in/gfZsrw9s\nAnd a blog post:\nhttps://lnkd.in/g9FVj6yH\nI'm super excited to see this get released, and can't wait to ship more features to it!",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQHC6zR8Ry5lCQ/feedshare-shrink_800/B56ZiAYTIrHkAg-/0/1754500511010?e=1764201600&v=beta&t=01oNWCbd8l3j-l9EZ7Ghd0lDeSamhHcJCVRqgkmGmh0"
+        ]
+    },
+    {
+        "content": "🦜Deep Agents <> MCP\nAdded a section to the Deep Agent docs on how to use them MCPs\nThis lets you set up an agent that can plan and act over longer time horizons and can also connect to arbitrary services\nDocs:\nhttps://lnkd.in/g2EaYy6r",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQHPSGCNdyfwXA/feedshare-shrink_800/B56ZiAoAlVHUAs-/0/1754504629640?e=1764201600&v=beta&t=KhbFzgm22nWRZ8cuuNFw0m0dU-PyScXX5nWag3CclTI"
+        ]
+    },
+    {
+        "content": "Resharing\nBen Liebald\n’s talk from Interrupt given the $100M ARR milestone announcement today… Congrats\nHarvey\nteam!",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D4E22AQFMVxTwNnXiiw/feedshare-shrink_800/B4EZdgKe0hG4Ak-/0/1749665051279?e=1764201600&v=beta&t=9vq9p-aWvh_vfW8Nb2h8A_XbVvmyOOLQGg1mizGEP20"
+        ]
+    },
+    {
+        "content": "👐Use gpt-oss with `deepagents`\nDeep Agents require good tool calling capabilities... something that OpenAI's new open source model is pretty good at\nThanks to\nRyan Eggleston\nfor adding an example how to use gpt-oss (via\nOllama\n) to `deepagents`\nDocs:\nhttps://lnkd.in/g9akd5YN",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQGwWgIhb3GpYg/feedshare-shrink_2048_1536/B56Zh7U4m_H0As-/0/1754415729768?e=1764201600&v=beta&t=9nQKFttRAw-S_K6NQksNM03O4Vrw3lw8JlTGbtOAeCQ"
+        ]
+    },
+    {
+        "content": "🦜🎙️LangChain Academy LIVE\nWe've been investing a lot in online education, but recently we decided to try something new\nOn August 19th in SF we are bringing ~60 agent builders together for a live \"ambient agent\" workshop\nSign up👉\nhttps://lnkd.in/ggi6QTqq",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQGfYUE48B9g4A/feedshare-shrink_800/B56Zh3FvBdHcAo-/0/1754344649917?e=1764201600&v=beta&t=j4F15SAgucDEPQK7RGKKTeEa1Thi5BDbm8Bl00RLTJ0"
+        ]
+    },
+    {
+        "content": "🦜 Langgraph + MCP 🤖\nThere are two main ways you can point\nLangChain\n's  Langgraph framework at MCP servers.\nFor both, first create an MCP client pointing at the MCP servers:\nclient = MultiServerMCPClient({\n\"itinerary\": {\n\"url\": \"http://localhost:8000/mcp/\",\n\"transport\": \"streamable_http\",\n}})\nThen either:\n1) Use the prebuilt react agent from langgraph.prebuilt:\ntools = await client.get_tools()\nagent = create_react_agent(model, tools)\nhotel_response = await agent.ainvoke({\"messages\": \"Find me a hotel in SF for 2 nights starting from 2024-01-01 with WiFi and pool.\"})\n2) Set up the entire graph yourself, so that you have full control on the flow:\ntools = await client.get_tools()\ndef call_model(state: MessagesState):\nresponse = model.bind_tools(tools).invoke(state[\"messages\"])\nreturn {\"messages\": response}\nbuilder = StateGraph(MessagesState)\nbuilder.add_node(call_model)\nbuilder.add_node(ToolNode(tools))\nbuilder.add_edge(START, \"call_model\")\nbuilder.add_conditional_edges(\n\"call_model\",\ntools_condition,\n)\nbuilder.add_edge(\"tools\", \"call_model\")\ngraph = builder.compile()\nhotel_response = await graph.ainvoke({\"messages\": \"Find me a hotel in SF for 2 nights starting from 2024-01-01 with WiFI and pool.\"})\nSee full examples here, which include model configuration for either Azure OpenAI or GitHub Models:\nhttps://lnkd.in/gHxXDvwy\nhttps://lnkd.in/ghU5snwK\nSee docs for langchain-mcp-adapters here:",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQHG45waD0sygw/feedshare-shrink_800/B56ZhSsILTHkAk-/0/1753733956609?e=1764201600&v=beta&t=vYqSEn3MCzsfjHAZ-Rzs0yIt8O2mWax9aW_yWLoBH1g",
+            "https://media.licdn.com/dms/image/v2/D5622AQHmczNxlwNJmg/feedshare-shrink_800/B56ZhSsIMiHMAg-/0/1753733957124?e=1764201600&v=beta&t=AlmFr-MKNx1z_92MhJ63PSnwoHT-JbzV_rGJda9H0YE"
+        ]
+    }
+]
+}

@@ -1,0 +1,93 @@
+{
+    "personal_info": {
+        "name": "Al Amin",
+        "headline": "Generative AI Engineer | LangChain, LangGraph & RAG | Building intelligent multi-agent systems.",
+        "location": "Dhaka, Bangladesh",
+        "current_company": "Genuine Technology & Research Ltd."
+    },
+    "about": "A dedicated Computer Science student at Dhaka University with hands-on experience architecting and building end-to-end Generative AI applications. My passion lies in creating intelligent agents that can reason, remember, and interact naturally.",
+    "top_skills": [
+        "Retrieval-Augmented Generation (RAG)",
+        "AI Agents",
+        "Python (Programming Language)"
+    ],
+    "featured_section": [],
+    "experience": [
+        {
+            "title": "Generative AI Engineer",
+            "company": "Genuine Technology & Research Ltd.",
+            "employment_type": "Full-time",
+            "duration": "May 2025 - Present",
+            "location": "Dhaka, Bangladesh",
+            "description": "Developing and deploying multi-agent systems using LangChain and LangGraph."
+        }
+    ],
+    "education": [
+        {
+            "school": "Dhaka University",
+            "degree": "B.Sc in Computer Science",
+            "duration": "2020 - 2024",
+            "grade": "CGPA: 3.80/4"
+        },
+        {
+            "school": "Dhaka College",
+            "degree": "H.S.C, Science",
+            "duration": "2017 - 2019",
+            "grade": "GPA: 5.00/5"
+        },
+        {
+            "school": "Dhaka Residential Model College",
+            "degree": "S.S.C, Science",
+            "duration": "2015 - 2017",
+            "grade": "GPA: 5.00/5"
+        }
+    ],
+    "projects": [],
+    "interests": []
+,
+
+"posts": [
+    {
+        "content": "Tired of the tangled mess of custom AI tool integrations? The Model Context Protocol (MCP) offers a clean, \"plug-and-play\" solution.\nBut many tutorials feel abstract, hiding how the model actually connects. My latest MCP Experiments-notebooks code pulls back the curtain by using the AI agent itself as the MCP client.\nUsing popular frameworks like LangChain and AutoGen, I show how simple it is to connect your agent to a universe of tools—no black boxes.\nWhat you'll learn from the code:\n- 🤖 Agent as the Client: See the direct agent-to-server communication.\n- 🔗 LangChain & AutoGen Ready: Plugs directly into your existing agentic workflows.\n- 🛠️ Custom MCP Servers: Easily wrap your own business logic or APIs into reusable tools.\n- 💡 Simplified Prompting: Call your custom tools based on clear business rules.\nCheck out the full implementation on GitHub:\nhttps://lnkd.in/grVUkZYg\nhashtag\n#\nAI\nhashtag\n#\nLLM\nhashtag\n#\nAgents\nhashtag\n#\nMCP\nhashtag\n#\nLangChain\nhashtag\n#\nAutoGen\nhashtag\n#\nOpenSource\nhashtag\n#\nArtificialIntelligence",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQFjqE1RX56_pQ/feedshare-shrink_800/B56ZkUPSIfHMAk-/0/1756981175527?e=1764201600&v=beta&t=RdlI2jZGOKpn1Qum_GhIH16XGM5DaV2_MKc3GRY0l1Y",
+            "https://media.licdn.com/dms/image/v2/D5622AQGCbZL1pgBhBw/feedshare-shrink_480/B56ZkUPSKNG4AY-/0/1756981175581?e=1764201600&v=beta&t=hVaQDP4R_XmE0I8F6S-0-IcL3gVCcCprS9V7oRx7m6I"
+        ]
+    },
+    {
+        "content": "Excited to share my latest project: a Multi-Model RAG pipeline that understands both text and images in complex documents! 🚀\nThe future of AI is multimodal, and this project tackles that head-on. My system ingests PDFs, intelligently processes them, and generates context-aware answers by understanding visuals and text together.\nHere’s the core of the architecture (visualized in the diagram):\n- Unified Embeddings: Using OpenAI's CLIP, both text and images are mapped into a single vector space. This is key for true multimodal retrieval.\n-  Intelligent Retrieval: A FAISS vector store finds the most relevant text and image context for any user query.\n-  Vision-Powered Generation: The retrieved context is passed to a vision-capable LLM (Llama) to synthesize a comprehensive, accurate answer.\nThis was a challenging but rewarding build, bridging the gap between different data types for smarter AI.\nNotebook available in GitHub:\nhttps://lnkd.in/d3FXuTCz\nhashtag\n#\nMultiModelRAG\nhashtag\n#\nGenerativeAI\nhashtag\n#\nAI\nhashtag\n#\nLLM\nhashtag\n#\nCLIP\nhashtag\n#\nLlama\nhashtag\n#\nPython\nhashtag\n#\nLangChain\nhashtag\n#\nRAG\nhashtag\n#\nMachineLearning",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D4D22AQGcc7JxM5fIHg/feedshare-shrink_800/B4DZh_zPwIGsAk-/0/1754490798134?e=1764201600&v=beta&t=4m-DzFEbHwd1uYQqPEjF4kCT0Yz1VCYm2EhMLNd0z4Y"
+        ]
+    },
+    {
+        "content": "You're right to be cautious about AI agents running code on your machine. So I built one that's not just smart, but safe.\nIntroducing Analyzer GPT—an autonomous agent that writes, debugs, and executes data analysis code inside a secure Docker sandbox. 🛡️\nHere's the workflow:\n- You: Give it a dataset and a task.\n- AI Agent: Writes the Python code.\n- Secure Execution: The code is run inside an isolated Docker container. Zero risk to your host system.\n- Self-Correction: If the code fails (missing library, bug), the agent analyzes the error and fixes it, then reruns the code in the container.\nKey Features that make it a great project:\n- 🧠 Autonomous Debugging: The AI agent doesn't just write code; it reads error messages and intelligently debugs its own work.\n- 🔒 Secure Docker Sandbox: This is the core of the architecture. All AI-generated code is executed inside a fully isolated Docker container. This prevents any potential for malicious or accidental system access, a non-negotiable for production-ready agents.\n- 🤖 Collaborative Agents: Built with Microsoft's AutoGen, it features a specialist team of agents that collaborate to solve complex tasks.\n- 💻 Local & Private: Runs with a local Llama 3.1 model, ensuring complete data privacy.\nThis project demonstrates how to move from simple AI scripts to building sophisticated, reliable, and secure autonomous systems.\nIt’s an entire problem-solving loop that is both intelligent and secure by design. This is a crucial step towards building AI agents we can trust.\nI've open-sourced the entire modular project. See how the secure execution is integrated:\n👇 GitHub Repo: 👇\nhttps://lnkd.in/ggEGDPeT\nWhat security practices do you think are essential for agentic AI?\nhashtag\n#\nAutoGen\nhashtag\n#\nDocker\nhashtag\n#\nCybersecurity\nhashtag\n#\nAI\nhashtag\n#\nDataAnalysis\nhashtag\n#\nPython\nhashtag\n#\nAgenticAI\nhashtag\n#\nOpenSource\nhashtag\n#\nLlama3\nhashtag\n#\nOllama",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQF_rRREy8cfXg/feedshare-shrink_800/B56Zhq.ti5HMAg-/0/1754141482201?e=1764201600&v=beta&t=wotVUnB0tGalFqeVlVrilhonp2iIA1IKWOnK86SBqbA"
+        ]
+    },
+    {
+        "content": "What if you could pause your AI agent at the perfect moment and guide it like a director on set?\nAgentic AI workflows are already powerful. But when you integrate Human-in-the-Loop (HITL) — especially in a custom, developer-controlled way — the level of control and reliability you unlock is game-changing.\nIn my latest notebook, I explore two HITL implementations in LangGraph:\nWhat’s inside this experiment?\n** Custom HITL Implementation\n- I designed a mechanism where HITL doesn’t rely on the built-in LangGraph pause logic — instead, developers control when and how to pause using state logic and checkpoints. This gives greater flexibility, like dynamic condition-based intervention.\n** Built-in HITL Flow\n- For comparison, I also implemented the traditional LangGraph HITL with pause, showing how the same flow can be controlled automatically.\n** State update via user messages — simulating real-time human correction or approval.\n** Why is this useful?\n1. You can pause agents at decision points based on your custom rules (e.g., confidence, stage, error detection).\n2. Integrate human approvals, corrections, or steering without rebuilding the agent logic.\n3. Enable auditing or debugging of the agent's reasoning by stepping in mid-run.\n4. Build more trustworthy AI systems, especially for critical workflows like legal, finance, medical, or research.\nIf you're working with LangGraph or building multi-agent systems, this HITL design gives you surgical control over agent reasoning.\nHuge thanks, Sunny Savita, for this great session.\nCode link:\nhttps://lnkd.in/g-2saPBu\nhashtag\n#\nLangGraph\nhashtag\n#\nHumanInTheLoop\nhashtag\n#\nAgenticAI\nhashtag\n#\nAIEngineering\nhashtag\n#\nLangChain\nhashtag\n#\nMultiAgentSystems\nhashtag\n#\nMCP\nhashtag\n#\nAIWorkflow\nhashtag\n#\nLLMOps",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQGIvunwYS0Tlg/feedshare-shrink_800/B56Zf6YaTWGUAk-/0/1752252393624?e=1764201600&v=beta&t=2LcTlpMnU5QiQBw7k2kJ6qkc-KbQLUWzSkZTDV_xGp8"
+        ]
+    },
+    {
+        "content": "Just completed one of the most complex projects I've worked on: an Autonomous Research Agent powered by the Hierarchical Supervisor Pattern!\n🔍 What it does:\n- Handles user queries end-to-end: Research → Summarize → Export\n- Smart task routing with a top-level supervisor agent\nTwo core teams:\n- Research Team (Medical/Finance) using tools like Tavily & PubMed\n- Document Processor that rewrites, summarizes & saves to PDF/DOCX\n🛠 Tech Stack:\n- LangGraph + LangChain tools\n- Groq + Qwen model for fast reasoning\n- Pydantic for structured task selection\n- Custom tools for local file export\n💡 Built it to explore real-world agent orchestration — and it works!\n🔗 GitHub-notebook:\nhttps://lnkd.in/gtz2jDq2\nHuge thanks to\nSunny Savita\nand\nKrish Naik\nhashtag\n#\nLangGraph\nhashtag\n#\nLLM\nhashtag\n#\nLangChain\nhashtag\n#\nAIagent\nhashtag\n#\nGroq\nhashtag\n#\nPython\nhashtag\n#\nAutonomousAgents",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQEYLp_mB4eYzw/feedshare-shrink_800/B56ZfRKZZcHoAk-/0/1751560853775?e=1764201600&v=beta&t=PtGcSm4BWRN2prLZr9JDgk2pQCdelyNTvz2UIH3PVUs"
+        ]
+    },
+    {
+        "content": "Excited to unveil my latest ReAct Agent project: an AI Travel Agent & Expense Planner! Here’s what it’s all about:\nTech Stack: Powered by Python and 18 robust tools, including LangChain, LangGraph, Groq, and APIs like WeatherStack and GoogleSerperAPIWrapper.\nFeatures:\n- Integrates real-time APIs for weather, Google Search, and currency conversion, ensuring dynamic updates.\n- Pulls live data for weather forecasts, top attractions, and expense calculations.\n- Leverages LangGraph for ReAct architecture and Groq to access open-source LLMs like Qwen3-32B.\n- Crafts personalized itineraries, like a 5-day Dhaka adventure with local cuisine and public transport.\nFuture Plans:\nModularize code for enhanced scalability and maintainability.\nShoutout: Huge thanks to\nSunny Savita\nfor inspiring my AI journey! 🙌\nDive into the notebook to explore the code and share your feedback! 🚀🔗 GitHub Link:\nhttps://lnkd.in/gr98vEeJ\nhashtag\n#\nAI\nhashtag\n#\nTravelTech\nhashtag\n#\nPython\nhashtag\n#\nLangChain\nhashtag\n#\nLangGraph\nhashtag\n#\nReAct\nhashtag\n#\nGroq\nhashtag\n#\nDataScience\nhashtag\n#\nRealTimeAPIs",
+        "image_links": [
+            "https://media.licdn.com/dms/image/v2/D5622AQEaHt6iGBi7ug/feedshare-shrink_800/B56ZeG06_mG0Ao-/0/1750313710202?e=1764201600&v=beta&t=4lZUiQBrJaS85AyyxC6Z5_pX5Tv44YYTuGbtACdT2Ag",
+            "https://media.licdn.com/dms/image/v2/D5622AQFdxE4Xm1Y-rA/feedshare-shrink_800/B56ZeG06_tHUAk-/0/1750313710206?e=1764201600&v=beta&t=eA9EZgO3WOxXi2svH4dH-tyVwGbIov1uBbOJzX4TP1w"
+        ]
+    },
+    {
+        "content": "🚀 New Project: Fine-Grained Feature Imitation for Efficient Object Detection Using Knowledge Distillation 🔍\nExcited to share my latest project on efficient object detection using knowledge distillation! 🎯\n📌 Challenge:\nState-of-the-art object detection models are highly accurate but computationally heavy, making them difficult to deploy on resource-constrained devices.\n📌 Solution:\nI developed a fine-grained feature imitation approach that enables a lightweight student model to learn from a larger teacher model, improving detection accuracy while significantly reducing model size.\n📊 Key Results:\n✅ Student Model: 1.78M parameters (71% fewer than the teacher model)\n✅ mAP@50: 0.707 (↑6.3% improvement)\n✅ mAP@50-95: 0.435 (↑5% improvement)\n✅ Generalization across multiple datasets: Pascal VOC, BCCD, Lemon Disease, Incorrect Mask-2\n🔬 Technical Highlights:\n🔹 Used YOLOv5x as the teacher & YOLOv5n as the student\n🔹 Designed a fine-grained imitation mask to focus on key regions\n🔹 Implemented a Combined Imitation Loss Function (CILF) for better knowledge transfer\n💡 Why It Matters?\nThis approach allows real-time object detection on low-power devices, making it suitable for autonomous systems, medical imaging, and smart surveillance—without requiring specialized hardware!\n🚀 Check out the full project here:\n🔗 GitHub:\nhttps://lnkd.in/d25Qp4Dj\nI’d love to hear your thoughts! Let’s discuss how this approach can be extended further. 🙌\nhashtag\n#\nMachineLearning\nhashtag\n#\nDeepLearning\nhashtag\n#\nObjectDetection\nhashtag\n#\nAI\nhashtag\n#\nComputerVision\nhashtag\n#\nKnowledgeDistillation\nhashtag\n#\nYOLO\nhashtag\n#\nEdgeAI\nhashtag\n#\nResearch\nhashtag\n#\nArtificialIntelligence\nhashtag\n#\nAIInnovation",
+        "image_links": []
+    }
+]
+}
