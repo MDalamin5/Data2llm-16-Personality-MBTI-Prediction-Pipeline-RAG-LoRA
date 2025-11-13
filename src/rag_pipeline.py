@@ -8,6 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
+import time
 
 from prompts import rag_prompt
 from schemas import UserNameExtract
@@ -55,6 +56,7 @@ def create_rag_chain(vector_store, user_query):
     """Creates the RAG chain with a retriever filtered by the extracted name."""
     llm, _ = initialize_models()
     llm_with_str_output = llm.with_structured_output(UserNameExtract)
+    time.sleep(2)
     result = llm_with_str_output.invoke(user_query)
     search_name = result.user_name
 
