@@ -1,1 +1,10 @@
 dotenv
+langchain
+langchain-community
+langchain-core
+langgraph
+tmdm
+langchain-huggingface
+sentence-transformers
+langchain_google_genai
+faiss-cpu
