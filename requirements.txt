@@ -32,3 +32,4 @@ jupyter-core==5.8.1
 # Useful libraries for data manipulation and analysis tasks.
 # pandas==2.3.2
 # numpy==1.26.4
+sqlmodel
