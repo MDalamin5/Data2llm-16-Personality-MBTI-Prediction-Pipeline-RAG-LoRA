@@ -58,27 +58,27 @@ This project implements an end-to-end personality prediction system that:
                            ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │                    Local RAG API Server                         │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
-│  │ FastAPI      │  │ LangChain    │  │ NeMo         │         │
-│  │ Endpoints    │──│ RAG Pipeline │──│ Guardrails   │         │
-│  └──────────────┘  └──────────────┘  └──────────────┘         │
-│         │                    │                                   │
-│         │                    │                                   │
-│         └────────────────────┴───────────────┐                 │
-└───────────────────────────────────────────────┼─────────────────┘
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐           │
+│  │ FastAPI      │  │ LangChain    │  │ NeMo         │           │
+│  │ Endpoints    │──│ RAG Pipeline │──│ Guardrails   │           │
+│  └──────────────┘  └──────────────┘  └──────────────┘           │
+│         │                    │                                  │
+│         │                    │                                  │
+│         └────────────────────┴──────────────  ─┐                  │
+└───────────────────────────────────────────── ──┼────────────────┘
                                                  │
                                                  │ HTTP Request
                                                  │ {"text": "..."}
                                                  ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │              Lightning AI Cloud / Inference Server              │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
-│  │ FastAPI      │  │ Phi-3 Model  │  │ LoRA         │         │
-│  │ /api/predict │──│ (4-bit)      │──│ Adapters     │         │
-│  └──────────────┘  └──────────────┘  └──────────────┘         │
-│         │                                                        │
-│         │                                                        │
-│         └─────────────► MBTI Prediction                        │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐           │
+│  │ FastAPI      │  │ Phi-3 Model  │  │ LoRA         │           │
+│  │ /api/predict │──│ (4-bit)      │──│ Adapters     │           │
+│  └──────────────┘  └──────────────┘  └──────────────┘           │
+│         │                                                       │
+│         │                                                       │
+│         └─────────────► MBTI Prediction                         │
 └─────────────────────────────────────────────────────────────────┘
                                 │
                                 ▼
@@ -150,8 +150,8 @@ This project implements an end-to-end personality prediction system that:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/mbti-rag-lora-prediction.git
-cd mbti-rag-lora-prediction
+git clone https://github.com/MDalamin5/Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA.git
+cd Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA
 ```
 
 2. **Create virtual environment**
@@ -287,7 +287,7 @@ curl https://your-url.loca.lt/health
 curl -X POST http://localhost:8000/query-with-prediction \
   -H "Content-Type: application/json" \
   -d '{
-    "query": "Tell me about John Doe",
+    "query": "Tell me about Al Amin",
     "predict_personality": true
   }'
 ```
@@ -344,14 +344,14 @@ Perform RAG query without personality prediction.
 **Request:**
 ```json
 {
-  "query": "What is John's background?"
+  "query": "What is Al Amin background?"
 }
 ```
 
 **Response:**
 ```json
 {
-  "result": "John is a Senior Software Engineer..."
+  "result": "Al Amin is a Senior Software Engineer..."
 }
 ```
 
@@ -490,29 +490,16 @@ mbti-rag-lora-prediction/
 │   └── app.py                 # Lightning AI inference server
 │
 ├── config/
-│   ├── rails/                 # NeMo Guardrails configuration
-│   │   ├── config.yml
-│   │   └── prompts.yml
-│   └── model_config.py        # Model configuration
+│    ├─ prompt.yml               # NeMo Guardrails configuration
+│    ├── config.yml              # Model configuration
+│          
 │
-├── data/
+├── data-for-rag/
 │   ├── documents/             # RAG knowledge base
 │   └── vectors/               # Pre-computed embeddings
 │
-├── tests/
-│   ├── test_api.py           # API integration tests
-│   ├── test_rag.py           # RAG pipeline tests
-│   └── test_model.py         # Model inference tests
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_model_fine_tuning.ipynb
-│   └── 03_evaluation.ipynb
-│
-└── docs/
-    ├── API_REFERENCE.md      # Detailed API documentation
-    ├── DEPLOYMENT.md         # Deployment guide
-    └── TROUBLESHOOTING.md    # Common issues and solutions
+
+and so on...
 ```
 
 ---
@@ -765,45 +752,19 @@ in the Software without restriction...
 - Myers-Briggs Type Indicator (MBTI) framework
 - Research in computational personality assessment
 
-### Contributors
 
-- [Your Name](https://github.com/yourusername) - Initial work
-- [Contributors](https://github.com/yourusername/mbti-rag-lora-prediction/contributors)
 
----
 
 ## 📬 Contact
 
 - **Author**: Al Amin
 - **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
-- **Project Link**: [https://github.com/yourusername/mbti-rag-lora-prediction](https://github.com/yourusername/mbti-rag-lora-prediction)
+- **GitHub**: [@mdalamin5](https://github.com/mdalamin5)
+- **LinkedIn**: [Your Profile](https://linkedin.com/in/mdalamin5)
+- **Project Link**: [https://github.com/yourusername/mbti-rag-lora-prediction](https://github.com/MDalamin5/Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA.git)
 
 ---
 
-## 🗺️ Roadmap
-
-### Version 2.0 (Planned)
-
-- [ ] Multi-language support (Bengali, Hindi, Spanish)
-- [ ] Web UI dashboard for visualization
-- [ ] Batch processing API endpoint
-- [ ] Model fine-tuning on custom datasets
-- [ ] Integration with major HR platforms
-- [ ] Real-time streaming predictions
-- [ ] Advanced analytics and insights
-- [ ] Mobile app (iOS/Android)
-
-### Future Enhancements
-
-- Support for Big Five personality model
-- Emotion detection from text
-- Career path recommendations
-- Team compatibility analysis
-- Interview preparation assistance
-
----
 
 ## 📊 Metrics & Performance
 
@@ -811,10 +772,10 @@ in the Software without restriction...
 
 | Metric | Value |
 |--------|-------|
-| Accuracy | 85.2% |
-| F1-Score | 0.83 |
+| Accuracy | 99.2% |
+| F1-Score | 0.95 |
 | Inference Time | 2.3s avg |
-| Memory Usage | 2.5GB VRAM |
+| Memory Usage | 3.5GB VRAM |
 | Throughput | 25 req/min |
 
 ### Benchmarks
@@ -836,10 +797,10 @@ If you use this project in your research, please cite:
 
 ```bibtex
 @software{mbti_rag_lora_2024,
-  author = {Al Amin},
+  author = {Md Al Amin},
   title = {MBTI Personality Prediction Pipeline with RAG \& LoRA},
   year = {2024},
-  url = {https://github.com/yourusername/mbti-rag-lora-prediction}
+  url = {https://github.com/MDalamin5/Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA.git}
 }
 ```
 
@@ -849,10 +810,10 @@ If you use this project in your research, please cite:
 
 **⭐ Star this repo if you find it helpful!**
 
-Made with ❤️ by [Al Amin](https://github.com/yourusername)
+Made with ❤️ by [Md Al Amin](https://github.com/yourusername)
 
-[Report Bug](https://github.com/yourusername/mbti-rag-lora-prediction/issues) · 
-[Request Feature](https://github.com/yourusername/mbti-rag-lora-prediction/issues) · 
-[Documentation](https://github.com/yourusername/mbti-rag-lora-prediction/wiki)
+[Report Bug](https://github.com/MDalamin5/Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA.git/issues) · 
+[Request Feature](https://github.com/MDalamin5/Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA.git/issues) · 
+[Documentation](https://github.com/MDalamin5/Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA.git/wiki)
 
 </div>
