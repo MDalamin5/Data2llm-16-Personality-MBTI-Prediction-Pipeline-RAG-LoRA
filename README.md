@@ -762,7 +762,7 @@ Max throughput: 25 requests/minute
 
 **⭐ Star this repo if you find it helpful!**
 
-Made with ❤️ by [Md Al Amin](https://github.com/yourusername)
+Made with ❤️ by [Md Al Amin](https://github.com/mdalamin5)
 
 [Report Bug](https://github.com/MDalamin5/Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA.git/issues) · 
 [Request Feature](https://github.com/MDalamin5/Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA.git/issues) · 
