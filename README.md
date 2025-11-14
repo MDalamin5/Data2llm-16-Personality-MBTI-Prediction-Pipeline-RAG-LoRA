@@ -50,7 +50,7 @@ This project implements an end-to-end personality prediction system that:
 
 ## 🏗️ Architecture
 
-![System Architecture](system-architecture/system-architecture.png)
+<!-- ![System Architecture](system-architecture/system-architecture.png) -->
 ![System Architecture](system-architecture/system-design.png)
 ![System Architecture](system-architecture/high-level-workflow.png)
 ---
