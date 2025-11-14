@@ -24,14 +24,70 @@
 #         st.warning("Please enter a query.")
 
 
-# frontend.py
+# # frontend.py- rag
+# import streamlit as st
+# import requests
+
+# # Page config
+# st.set_page_config(
+#     page_title="Personality RAG",
+#     page_icon="magnifying_glass_tilted_left",
+#     layout="centered"
+# )
+
+# # Title
+# st.title("Personality Profile Analyzer")
+# st.caption("Enter a user query to retrieve profile and posts from RAG system")
+
+# # Initialize chat history
+# if "messages" not in st.session_state:
+#     st.session_state.messages = []
+
+# # Display chat messages
+# for message in st.session_state.messages:
+#     with st.chat_message(message["role"]):
+#         st.markdown(message["content"])
+
+# # Chat input
+# if prompt := st.chat_input("Ask about a user (e.g., 'Tell me about Al Amin')"):
+#     # Add user message
+#     st.session_state.messages.append({"role": "user", "content": prompt})
+#     with st.chat_message("user"):
+#         st.markdown(prompt)
+
+#     # Call API
+#     with st.chat_message("assistant"):
+#         with st.spinner("Processing..."):
+#             try:
+#                 response = requests.post(
+#                     "http://localhost:8000/query-with-prediction",
+#                     json={"query": prompt}
+#                 )
+#                 if response.status_code == 200:
+#                     result = response.json().get("result", "No result returned.")
+#                     st.markdown(result)
+#                 elif response.status_code == 429:
+#                     st.error("Gemini API quota exceeded (10/min). Please wait 1 minute.")
+#                 else:
+#                     st.error(f"Error {response.status_code}: {response.text}")
+#             except requests.ConnectionError:
+#                 st.error("Cannot connect to backend. Is `uvicorn app:app` running?")
+#             except Exception as e:
+#                 st.error(f"Unexpected error: {e}")
+
+    # Add assistant response to history
+    # (We don't save full response here to avoid duplication — already shown above)
+    # But if you want full persistence, capture it:
+    # st.session_state.messages.append({"role": "assistant", "content": result})y
+
+
 import streamlit as st
 import requests
 
 # Page config
 st.set_page_config(
     page_title="Personality RAG",
-    page_icon="magnifying_glass_tilted_left",
+    page_icon="🧠",
     layout="centered"
 )
 
@@ -50,32 +106,47 @@ for message in st.session_state.messages:
 
 # Chat input
 if prompt := st.chat_input("Ask about a user (e.g., 'Tell me about Al Amin')"):
-    # Add user message
+    # Add user message to session
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
 
-    # Call API
+    # Call backend API
     with st.chat_message("assistant"):
         with st.spinner("Processing..."):
             try:
                 response = requests.post(
-                    "http://localhost:8000/query",
-                    json={"query": prompt}
+                    "http://localhost:8000/query-with-prediction",
+                    json={"query": prompt, "predict_personality": True}
                 )
+
                 if response.status_code == 200:
-                    result = response.json().get("result", "No result returned.")
-                    st.markdown(result)
+                    data = response.json()
+                    rag_result = data.get("rag_result", "No RAG result returned.")
+                    personality = data.get("personality_prediction", {}).get("prediction", {})
+
+                    # Format personality info
+                    mbti_type = personality.get("mbti_type", "Unknown")
+                    key_traits = personality.get("key_traits", "N/A")
+                    description = personality.get("description", "N/A")
+                    business_fit = personality.get("business_fit", "N/A")
+
+                    # Display results
+                    st.markdown("### RAG Summary")
+                    st.markdown(rag_result)
+
+                    st.markdown("### Personality Prediction")
+                    st.markdown(f"- **MBTI Type:** {mbti_type}")
+                    st.markdown(f"- **Key Traits:** {key_traits}")
+                    st.markdown(f"- **Description:** {description}")
+                    st.markdown(f"- **Business Fit:** {business_fit}")
+
                 elif response.status_code == 429:
                     st.error("Gemini API quota exceeded (10/min). Please wait 1 minute.")
                 else:
                     st.error(f"Error {response.status_code}: {response.text}")
+
             except requests.ConnectionError:
                 st.error("Cannot connect to backend. Is `uvicorn app:app` running?")
             except Exception as e:
                 st.error(f"Unexpected error: {e}")
-
-    # Add assistant response to history
-    # (We don't save full response here to avoid duplication — already shown above)
-    # But if you want full persistence, capture it:
-    # st.session_state.messages.append({"role": "assistant", "content": result})y
