@@ -688,7 +688,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2024 Md Al Amin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -722,11 +722,11 @@ in the Software without restriction...
 
 ## 📬 Contact
 
-- **Author**: Al Amin
-- **Email**: your.email@example.com
+- **Author**: Md Al Amin
+- **Email**: mdal.amin5@northsouth.edu
 - **GitHub**: [@mdalamin5](https://github.com/mdalamin5)
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/mdalamin5)
-- **Project Link**: [https://github.com/yourusername/mbti-rag-lora-prediction](https://github.com/MDalamin5/Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA.git)
+- **LinkedIn**: [Md Al Amin](https://linkedin.com/in/mdalamin5)
+- **Project Link**: [Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA](https://github.com/MDalamin5/Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA.git)
 
 ---
 
@@ -755,19 +755,6 @@ Max throughput: 25 requests/minute
 ```
 
 ---
-
-## 🔖 Citation
-
-If you use this project in your research, please cite:
-
-```bibtex
-@software{mbti_rag_lora_2024,
-  author = {Md Al Amin},
-  title = {MBTI Personality Prediction Pipeline with RAG \& LoRA},
-  year = {2024},
-  url = {https://github.com/MDalamin5/Data2llm-16-Personality-MBTI-Prediction-Pipeline-RAG-LoRA.git}
-}
-```
 
 ---
 
